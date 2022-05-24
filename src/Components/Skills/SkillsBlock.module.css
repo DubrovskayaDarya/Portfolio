@@ -1,0 +1,28 @@
+.mainBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.greetingBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 40%;
+    border: 1px solid;
+}
+.greetingText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.avatar{
+    display: flex;
+    height: 230px;
+    justify-content: space-around;
+}
