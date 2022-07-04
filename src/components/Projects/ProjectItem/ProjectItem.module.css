@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 300px;
+    background-color: rgb(112, 236, 141);
+}
+
+.viewProject {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-image: url("https://internetpolicy.kg/literacymodule/course_1/module1/images/pic1_2_1.png");
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}

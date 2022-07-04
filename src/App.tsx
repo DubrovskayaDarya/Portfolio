@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
+import Header from "./components/Header/Header";
+import MainBlock from "./components/Main/MainBlock";
+import SkillsBlock from "./components/Skills/SkillsBlock";
+import {ProjectsBlock} from "./components/Projects/ProlectsBlock";
+import {Remote} from "./components/Remote/Remote";
+import {Contacts} from "./components/Contacts/Contacts";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+        <div className="App">
+            <Header/>
+            {/*<Routes>*/}
+            {/*    <Route path={'/main'} element={<MainBlock/>}/>*/}
+            {/*    <Route path={'/skills'} element={<SkillsBlock/>}/>*/}
+            {/*</Routes>*/}
+            <MainBlock/>
+            <SkillsBlock/>
+            <ProjectsBlock/>
+            <Remote/>
+            <Contacts/>
+            <Footer/>
+        </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;

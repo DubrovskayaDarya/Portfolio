@@ -1,0 +1,24 @@
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #191954;
+    width: 120px;
+    background-color: rgba(128, 128, 234, 0.77);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skillIcon {
+    height: 30%;
+    width: 30%;
+}
+
+.description {
+    background-color: rgba(135, 135, 155, 0.77);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

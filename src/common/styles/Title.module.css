@@ -1,0 +1,11 @@
+.title {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: GTWalsheimPro, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    letter-spacing: 0.166667em;
+
+    border: 1px solid black;
+}
