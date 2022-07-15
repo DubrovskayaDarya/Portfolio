@@ -1,24 +1,31 @@
-.skillItem {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 1px solid #191954;
-    width: 120px;
-    background-color: rgba(128, 128, 234, 0.77);
-    padding: 20px;
-    box-sizing: border-box;
+    width: 200px;
+    background-color: rgba(137, 137, 220, 0.77);
+}
+
+.iconBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(137, 137, 220, 0.77);
+    background-size: cover;
+    width: 100%;
 }
 
 .skillIcon {
-    height: 30%;
-    width: 30%;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
 }
 
 .description {
     background-color: rgba(135, 135, 155, 0.77);
-    width: 100%;
-    display: flex;
+    padding: 5px;
     flex-wrap: wrap;
 }

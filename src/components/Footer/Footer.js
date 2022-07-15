@@ -13,8 +13,6 @@ export const Footer = () => {
                     <a href={'https://www.instagram.com/mrsdubrovskaya/'}><img className={style.icon} src={'https://img.icons8.com/ios/500/instagram-new--v1.png'}/></a>
                     <a href={'https://www.instagram.com/mrsdubrovskaya/'}><img className={style.icon} src={'https://img.icons8.com/ios/500/instagram-new--v1.png'}/></a>
                     <a href={'https://www.instagram.com/mrsdubrovskaya/'}><img className={style.icon} src={'https://img.icons8.com/ios/500/instagram-new--v1.png'}/></a>
-                    <a href={'https://www.instagram.com/mrsdubrovskaya/'}><img className={style.icon} src={'https://img.icons8.com/ios/500/instagram-new--v1.png'}/></a>
-
                 </div>
                 <span> 2022 All rights reserved</span>
             </div>
