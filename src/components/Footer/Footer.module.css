@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    background-color: #bd98e0;
+    min-height: 20vh;
+    background-color: #f2f2f5;
 }
 
 .footerBlock {
@@ -11,20 +11,19 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
     width: 70%;
     height: 70%;
 }
 
 .iconsBlock {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    width: 50%;
-    border: 1px solid black;
+    min-width: 30%;
 }
 
 .icon {
     height: 50px;
     width: 50px;
+    margin: 15px;
 }

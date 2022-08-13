@@ -40,7 +40,7 @@ export const Contacts = () => {
                         rows={10}
                         className={style.textarea}/>
                 </form>
-                <button type={'submit'} className={b.button}> SEND</button>
+                <button type={'submit'} className={b.button}>SEND</button>
             </div>
 
         </div>

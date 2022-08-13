@@ -3,7 +3,6 @@
     display: inline-block;
     padding: 20px;
     text-transform: uppercase;
-    letter-spacing: 20px;
     font-size: 20px;
     font-family: poppins, sans-serif;
     font-style: normal;
@@ -13,6 +12,7 @@
     box-shadow: #333333;
     color: #ffffff;
     transition-duration: 1s;
+    min-width: 40%;
 }
 
 .button:hover {
@@ -24,16 +24,4 @@
 .button_1, button {
     width: 20%;
     height: 15%;
-}
-
-
-.button_2, button {
-    width: 20%;
-    height: 20%;
-}
-
-
-.button_3, button {
-    width: 30%;
-    height: 10%;
 }

@@ -9,7 +9,7 @@ export const Remote = () => {
         <div className={style.container}>
             <div className={style.remoteBlock}>
                 <span className={t.title}> CONSIDERING REMOTE WORK </span>
-                <button className={b.button_2}> HIRE ME </button>
+                <button className={b.button}>HIRE ME</button>
             </div>
         </div>
     )

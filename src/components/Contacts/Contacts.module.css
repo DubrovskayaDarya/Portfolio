@@ -37,6 +37,7 @@
 
 .personalContacts:hover {
     background-color: #dbdde0;
+    border: 1px solid #7c7878;
 }
 
 .icon {
@@ -51,7 +52,7 @@
     align-items: center;
     justify-content: space-between;
     min-height: 30vh;
-    width: 50%;
+    min-width: 50%;
 }
 
 .formBlock input, .formBlock textarea {
