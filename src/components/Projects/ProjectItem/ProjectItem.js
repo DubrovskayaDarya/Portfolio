@@ -9,10 +9,10 @@ export const ProjectItem = (props) => {
     return (
         <div className={style.container}>
             <div className={style.viewProject}>
-                <button className={b.button_1} onClick={() => {}}> VIEW </button>
+                <button className={b.button} onClick={() => {}}> VIEW </button>
             </div>
             <h4 className={t.title}>{props.projectTitle}</h4>
-            <span>{props.projectDescription}</span>
+            <span className={style.description}>{props.projectDescription}</span>
         </div>
     )
 }

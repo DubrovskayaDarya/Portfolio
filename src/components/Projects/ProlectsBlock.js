@@ -10,8 +10,8 @@ export const ProjectsBlock = () => {
             <div className={style.projectsContainer}>
                 <h2 className={t.title}> MY PROJECTS </h2>
                 <div className={style.projects}>
-                    <ProjectItem projectTitle={'Social Network'} projectDescription={'something1'}/>
-                    <ProjectItem projectTitle={'ToDoList'} projectDescription={'something2'}/>
+                    <ProjectItem projectTitle={'Social Network'} projectDescription={'Technologies used: React, Redux, REST API, axios, react-redux, react-paginate, react-router-dom v6, redux-thunk.'}/>
+                    <ProjectItem projectTitle={'ToDoList'} projectDescription={'Used technologies: React, TypeScript, Redux was used as state management, REST API, redux-thunk, axios requests. The Material-UI library was used to create the design. The application meets the requirements of the FLUX architecture.'}/>
                 </div>
             </div>
 
