@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import './App.css';
 import Header from "./components/Header/Header";
 import MainBlock from "./components/Main/MainBlock";
@@ -12,12 +12,8 @@ import {Footer} from "./components/Footer/Footer";
 function App() {
     return (
         <BrowserRouter>
-        <div className="App">
+        <div >
             <Header/>
-            {/*<Routes>*/}
-            {/*    <Route path={'/main'} element={<MainBlock/>}/>*/}
-            {/*    <Route path={'/skills'} element={<SkillsBlock/>}/>*/}
-            {/*</Routes>*/}
             <MainBlock/>
             <SkillsBlock/>
             <ProjectsBlock/>

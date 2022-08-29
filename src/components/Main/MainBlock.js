@@ -3,7 +3,7 @@ import style from './MainBlock.module.css';
 
 function MainBlock() {
     return (
-        <div className={style.mainBlock}>
+        <div id={'main'} className={style.mainBlock}>
             <div className={style.greetingBlock}>
                 <div className={style.greetingText}>
                     <h2>DUBROVSKAYA</h2>

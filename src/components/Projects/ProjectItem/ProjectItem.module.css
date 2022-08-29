@@ -23,6 +23,10 @@
     background-size: cover;
     width: 100%;
     height: 50%;
+    transition-duration: 1s;
+}
+.viewProject:hover {
+    background-image: url("https://proektmedia-stat.ams3.digitaloceanspaces.com/2018/08/proektmedia_facebook_default.png");
 }
 
 .description {

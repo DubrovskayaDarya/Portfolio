@@ -10,7 +10,7 @@ import phone from "../../common/icons/phone-icon.png"
 export const Contacts = () => {
 
     return (
-        <div className={style.container}>
+        <div id={'contacts'} className={style.container}>
             <div className={style.contactsBlock}>
                 <h2 className={t.title}> Contacts </h2>
                 <div className={style.personalBlock}>

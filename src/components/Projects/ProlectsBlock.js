@@ -6,7 +6,7 @@ import t from '../../common/styles/Title.module.css'
 export const ProjectsBlock = () => {
 
     return (
-        <div className={style.mainContainer}>
+        <div id={'projects'} className={style.mainContainer}>
             <div className={style.projectsContainer}>
                 <h2 className={t.title}> MY PROJECTS </h2>
                 <div className={style.projects}>

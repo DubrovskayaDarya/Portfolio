@@ -7,7 +7,7 @@ import cssIcon from './../../common/icons/css-icon.svg'
 
 function SkillsBlock() {
     return (
-        <div className={style.skillsBlock}>
+        <div id={'skills'} className={style.skillsBlock}>
             <div className={style.skills}>
                 <h2 className={t.title}>MY SKILLS</h2>
                 <div className={style.skillsItems}>
