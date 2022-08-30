@@ -8,10 +8,10 @@ function Header() {
     return (
         <header className={style.header}>
             <div className={style.nav}>
-                <Link to={'/main#main'}> Main </Link>
-                <Link to={'/skills#skills'}> Skills </Link>
-                <Link to={'/projects#projects'}> Projects </Link>
-                <Link to={'/contacts#contacts'}> Contacts </Link>
+                <Link to={'/#main'}> Main </Link>
+                <Link to={'/#skills'}> Skills </Link>
+                <Link to={'/#projects'}> Projects </Link>
+                <Link to={'/#contacts'}> Contacts </Link>
             </div>
         </header>
     );

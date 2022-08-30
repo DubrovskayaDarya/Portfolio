@@ -9,7 +9,6 @@ function SkillItem(props) {
                 <img alt={'skill logo'} className={style.icon} src={props.logo}/>
             </div>
             <h4 className={t.title}>{props.name}</h4>
-            <span className={style.description}>{props.description}</span>
         </div>
     );
 }

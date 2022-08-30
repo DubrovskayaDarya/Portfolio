@@ -5,8 +5,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 300px;
+    min-height: 70vh;
     background-color: #f2f2f5;
     border: 1px solid #e5e9ed;
+    margin: 10px;
 }
 
 .container:hover {

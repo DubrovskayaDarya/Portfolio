@@ -12,7 +12,7 @@ export const ProjectItem = (props) => {
                 <button className={b.button} onClick={() => {}}> VIEW </button>
             </div>
             <h4 className={t.title}>{props.projectTitle}</h4>
-            <span className={style.description}>{props.projectDescription}</span>
+            <div className={style.description}>{props.projectDescription}</div>
         </div>
     )
 }

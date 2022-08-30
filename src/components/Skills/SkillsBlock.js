@@ -4,17 +4,22 @@ import SkillItem from "./SkillItem/SkillItem"
 import t from '../../common/styles/Title.module.css'
 import reduxIcon from './../../common/icons/redux-icon.svg'
 import cssIcon from './../../common/icons/css-icon.svg'
+import typescript from './../../common/icons/typescript-icon.png'
+import git from './../../common/icons/git-icon.png'
+
 
 function SkillsBlock() {
     return (
         <div id={'skills'} className={style.skillsBlock}>
             <div className={style.skills}>
-                <h2 className={t.title}>MY SKILLS</h2>
+                <h2 className={t.title}> SKILLS </h2>
                 <div className={style.skillsItems}>
-                    <SkillItem name={'React'} description={'Declarative, efficient, and flexible JavaScript library for building user interfaces'} logo={'https://www.svgrepo.com/show/327388/logo-react.svg'}/>
-                    <SkillItem name={'JavaScript'} description={'The best known as the scripting language for Web pages'} logo={'https://www.svgrepo.com/show/327372/logo-javascript.svg'}/>
-                    <SkillItem name={'Redux'} description={'Library for managing and updating application state'} logo={reduxIcon}/>
-                    <SkillItem name={'CSS'} description={'Stylesheet language'} logo={cssIcon}/>
+                    <SkillItem name={'React'} logo={'https://www.svgrepo.com/show/327388/logo-react.svg'}/>
+                    <SkillItem name={'JavaScript'} logo={'https://www.svgrepo.com/show/327372/logo-javascript.svg'}/>
+                    <SkillItem name={'Redux'} logo={reduxIcon}/>
+                    <SkillItem name={'TypeScript'} logo={typescript}/>
+                    <SkillItem name={'CSS'} logo={cssIcon}/>
+                    <SkillItem name={'Git'} logo={git}/>
                 </div>
             </div>
         </div>
