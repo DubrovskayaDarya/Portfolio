@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './MainBlock.module.css';
+import me from '../../common/images/photo_2022-03-14_23-42-14.jpg'
 
 function MainBlock() {
     return (
@@ -10,7 +11,7 @@ function MainBlock() {
                     <span>Front-End Developer</span>
                 </div>
                 <div className={style.avatar}>
-                    <img src={'https://uznayvse.ru/images/catalog/2022/1/alla-pugacheva_48.jpg'}/>
+                    <img src={me}/>
                 </div>
             </div>
         </div>
