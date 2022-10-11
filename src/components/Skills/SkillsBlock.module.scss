@@ -1,10 +1,10 @@
+@import "../../common/styles/sass/variables";
 .skillsBlock {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #f2f2f5;
-
+  background-color: $bcgSecond;
   .skills {
     display: flex;
     flex-direction: column;

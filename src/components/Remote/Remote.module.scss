@@ -1,9 +1,10 @@
+@import "../../common/styles/sass/variables";
 .container {
   display: flex;
   min-height: 30vh;
   align-items: center;
   justify-content: center;
-  background-color: #f2f2f5;
+  background-color: $bcgSecond;
 
   .remoteBlock {
     display: flex;
@@ -11,7 +12,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid #7c7878;
+    border: $borderHover;
     width: 80%;
     min-height: 25vh;
   }

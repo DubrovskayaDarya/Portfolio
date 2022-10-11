@@ -1,10 +1,12 @@
+@import "../../common/styles/sass/variables";
+
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 40px;
   width: 100%;
-  background-color: #dbdde0;
+  background-color: $bcgSecond;
   position: fixed;
 
   .nav {

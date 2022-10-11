@@ -1,3 +1,4 @@
+@import "../../../common/styles/sass/variables";
 .container {
   display: flex;
   flex-direction: column;
@@ -6,12 +7,12 @@
   flex-wrap: wrap;
   width: 300px;
   min-height: 70vh;
-  background-color: #f2f2f5;
-  border: 1px solid #e5e9ed;
+  background-color: $bcgSecond;
+  border: $border;
   margin: 10px;
 
   &:hover {
-    border: 1px solid #7c7878;
+    border: $borderHover;
   }
 
   .viewProject {
@@ -19,7 +20,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

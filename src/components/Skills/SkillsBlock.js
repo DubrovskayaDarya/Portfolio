@@ -5,6 +5,7 @@ import reduxIcon from './../../common/icons/redux-icon.svg'
 import cssIcon from './../../common/icons/css-icon.svg'
 import typescript from './../../common/icons/typescript-icon.png'
 import git from './../../common/icons/git-icon.png'
+import sass from '../../common/icons/sass-icon.png'
 import {SkillItem} from "./SkillItem/SkillItem";
 
 
@@ -19,6 +20,7 @@ export const SkillsBlock = () => {
                     <SkillItem name={'Redux'} logo={reduxIcon}/>
                     <SkillItem name={'TypeScript'} logo={typescript}/>
                     <SkillItem name={'CSS'} logo={cssIcon}/>
+                    <SkillItem name={'Sass'} logo={sass}/>
                     <SkillItem name={'Git'} logo={git}/>
                 </div>
             </div>
