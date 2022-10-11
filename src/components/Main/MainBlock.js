@@ -1,8 +1,8 @@
 import React from 'react';
-import style from './MainBlock.module.css';
-import me from '../../common/images/photo_2022-03-14_23-42-14.jpg'
+import style from './MainBlock.module.scss';
+import me from '../../common/images/myPhoto.jpg'
 
-function MainBlock() {
+export const MainBlock = () => {
     return (
         <div id={'main'} className={style.mainBlock}>
             <div className={style.greetingBlock}>
@@ -17,5 +17,3 @@ function MainBlock() {
         </div>
     );
 }
-
-export default MainBlock;

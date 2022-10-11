@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './Header.module.css';
+import style from './Header.module.scss';
 import {HashLink as Link} from "react-router-hash-link";
 
 
-function Header() {
+export const Header = () => {
 
     return (
         <header className={style.header}>
@@ -16,5 +16,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;

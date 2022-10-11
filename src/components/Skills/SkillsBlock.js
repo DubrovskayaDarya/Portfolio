@@ -1,14 +1,14 @@
 import React from 'react';
-import style from './SkillsBlock.module.css';
-import SkillItem from "./SkillItem/SkillItem"
+import style from './SkillsBlock.module.scss';
 import t from '../../common/styles/Title.module.css'
 import reduxIcon from './../../common/icons/redux-icon.svg'
 import cssIcon from './../../common/icons/css-icon.svg'
 import typescript from './../../common/icons/typescript-icon.png'
 import git from './../../common/icons/git-icon.png'
+import {SkillItem} from "./SkillItem/SkillItem";
 
 
-function SkillsBlock() {
+export const SkillsBlock = () => {
     return (
         <div id={'skills'} className={style.skillsBlock}>
             <div className={style.skills}>
@@ -25,5 +25,3 @@ function SkillsBlock() {
         </div>
     );
 }
-
-export default SkillsBlock;

@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Contacts.module.css'
+import style from './Contacts.module.scss'
 import t from '../../common/styles/Title.module.css'
 import b from '../../common/styles/ButtonStyle.module.css'
 import {PersonalContacts} from "./PersonalContacts";

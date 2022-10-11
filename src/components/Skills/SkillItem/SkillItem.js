@@ -1,8 +1,8 @@
 import React from "react";
-import style from './SkillItem.module.css'
+import style from './SkillItem.module.scss'
 import t from '../../../common/styles/Title.module.css'
 
-function SkillItem(props) {
+export const SkillItem = (props) => {
     return (
         <div className={style.container}>
             <div className={style.iconBlock}>
@@ -12,5 +12,3 @@ function SkillItem(props) {
         </div>
     );
 }
-
-export default SkillItem;

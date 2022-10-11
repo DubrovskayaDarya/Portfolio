@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.85);
+
+  .contactsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid #e5e9ed;
+    width: 70%;
+    min-height: 80vh;
+    margin: 30px;
+
+    .personalBlock {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .personalContacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #e5e9ed;
+        height: 150px;
+        width: 250px;
+        transition-duration: 1s;
+        margin: 10px;
+
+        &:hover {
+          background-color: #dbdde0;
+          border: 1px solid #7c7878;
+        }
+      }
+
+      .icon {
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+      }
+    }
+
+    .formBlock {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 30vh;
+      min-width: 50%;
+
+      .input {
+        padding: 0 20px;
+        height: 50px
+      }
+
+      .textarea {
+        height: 50%;
+        width: 100%;
+        padding: 12px 20px;
+      }
+
+      & input, & textarea {
+        width: 100%;
+        border: 1px solid #e5e9ed;
+        font-size: 15px;
+        font-weight: 400;
+        background-color: transparent;
+        font-family: poppins, sans-serif;
+        font-style: normal;
+        margin: 10px;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+
