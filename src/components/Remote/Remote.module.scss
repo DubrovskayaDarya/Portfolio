@@ -1,17 +1,13 @@
 @import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
 .container {
-  display: flex;
+  @include flex(row, center, center, nowrap);
   min-height: 30vh;
-  align-items: center;
-  justify-content: center;
   background-color: $bcgSecond;
 
   .remoteBlock {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    @include flex(column, space-around, center, wrap);
     border: $borderHover;
     width: 80%;
     min-height: 25vh;

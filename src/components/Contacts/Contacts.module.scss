@@ -1,18 +1,13 @@
 @import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex(row, center, center, nowrap);
   min-height: 100vh;
   background-color: $bcgFirst;
 
   .contactsBlock {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    @include flex(column, space-around, center, wrap);
     border: $border;
     width: 70%;
     min-height: 80vh;
@@ -25,10 +20,7 @@
       flex-wrap: wrap;
 
       .personalContacts {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex(column, center, center, nowrap);
         border: $border;
         height: 150px;
         width: 250px;
@@ -49,10 +41,7 @@
     }
 
     .formBlock {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
+      @include flex(column, space-between, center, nowrap);
       min-height: 30vh;
       min-width: 50%;
 

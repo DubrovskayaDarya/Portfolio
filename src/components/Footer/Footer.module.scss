@@ -1,23 +1,18 @@
 @import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(row, center, center, nowrap);
   min-height: 20vh;
   background-color: $bcgSecond;
 
   .footerBlock {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(column, space-between, center, nowrap);
     width: 70%;
     height: 70%;
 
     .iconsBlock {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
+      @include flex(row, space-around, center, wrap);
       min-width: 30%;
 
       .icon {

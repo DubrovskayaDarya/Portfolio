@@ -1,9 +1,8 @@
 @import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
 
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(row, center, center, nowrap);
   height: 40px;
   width: 100%;
   background-color: $bcgSecond;
