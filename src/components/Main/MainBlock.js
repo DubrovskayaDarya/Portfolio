@@ -1,6 +1,8 @@
 import React from 'react';
 import style from './MainBlock.module.scss';
 import me from '../../common/images/myPhoto.jpg'
+import {ParticleComponent} from "../subComponents/ParticleComponent";
+
 
 export const MainBlock = () => {
     return (
@@ -14,6 +16,7 @@ export const MainBlock = () => {
                     <img src={me} alt={'Profile Photo'}/>
                 </div>
             </div>
+            <ParticleComponent/>
         </div>
     );
 }

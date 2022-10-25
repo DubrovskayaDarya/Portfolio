@@ -15,6 +15,7 @@
     padding: 20px;
 
     .personalBlock {
+      z-index: 3;
       display: flex;
       width: 100%;
       justify-content: space-around;
@@ -43,6 +44,7 @@
 
     .formBlock {
       @include flex(column, space-between, center, nowrap);
+      z-index: 3;
       min-height: 30vh;
       min-width: 50%;
 

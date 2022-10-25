@@ -12,6 +12,7 @@
 
     .skillsItems {
       @include flex(row, space-around, center, wrap);
+      z-index: 3;
       width: 100%;
     }
   }

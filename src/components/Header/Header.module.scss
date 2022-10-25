@@ -3,6 +3,7 @@
 
 .header {
   @include flex(row, center, center, nowrap);
+  z-index: 3;
   height: 40px;
   width: 100%;
   background-color: $bcgSecond;

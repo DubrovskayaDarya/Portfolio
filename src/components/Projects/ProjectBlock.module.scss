@@ -8,6 +8,7 @@
 
   .projectsContainer {
     @include flex(row, center, space-between, wrap);
+    z-index: 3;
     height: 90%;
     width: 70%;
 

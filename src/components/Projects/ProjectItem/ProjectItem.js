@@ -1,6 +1,6 @@
 import React from "react";
 import style from './ProjectItem.module.scss'
-import b from "../../../common/styles/ButtonStyle.module.css"
+import b from "../../../common/styles/ButtonStyle.module.scss"
 import t from '../../../common/styles/Title.module.css'
 
 
