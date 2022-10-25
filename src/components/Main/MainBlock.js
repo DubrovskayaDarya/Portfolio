@@ -11,7 +11,7 @@ export const MainBlock = () => {
                     <span>Front-End Developer</span>
                 </div>
                 <div className={style.avatar}>
-                    <img src={me}/>
+                    <img src={me} alt={'Profile Photo'}/>
                 </div>
             </div>
         </div>
