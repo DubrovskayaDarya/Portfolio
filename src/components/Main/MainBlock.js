@@ -3,6 +3,7 @@ import style from './MainBlock.module.scss';
 import me from '../../common/images/myPhoto.jpg'
 import {ParticleComponent} from "../subComponents/ParticleComponent";
 import Slide from 'react-reveal/Slide';
+import ReactTypingEffect from 'react-typing-effect';
 
 
 export const MainBlock = () => {
@@ -12,7 +13,7 @@ export const MainBlock = () => {
                 <Slide left>
                 <div className={style.greetingText}>
                     <h2>DUBROVSKAYA</h2>
-                    <span>Front-End Developer</span>
+                    <ReactTypingEffect text={["Front-End Developer"]} speed={100} typingDelay={500}/>
                 </div>
                 </Slide>
                 <Slide right>
