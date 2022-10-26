@@ -8,8 +8,10 @@
 
   .remoteBlock {
     @include flex(column, space-around, center, wrap);
+    z-index: 3;
+    backdrop-filter: blur(5px);
     border: $borderHover;
-    width: 80%;
+    width: 70%;
     min-height: 25vh;
   }
 }

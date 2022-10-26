@@ -8,6 +8,8 @@
 
   .contactsBlock {
     @include flex(column, space-around, center, wrap);
+    z-index: 3;
+    backdrop-filter: blur(5px);
     border: $border;
     width: 70%;
     min-height: 80vh;
@@ -15,7 +17,6 @@
     padding: 20px;
 
     .personalBlock {
-      z-index: 3;
       display: flex;
       width: 100%;
       justify-content: space-around;
@@ -44,7 +45,6 @@
 
     .formBlock {
       @include flex(column, space-between, center, nowrap);
-      z-index: 3;
       min-height: 30vh;
       min-width: 50%;
 

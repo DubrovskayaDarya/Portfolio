@@ -8,17 +8,17 @@
 
   .greetingBlock {
     @include flex(row, space-around, center, wrap);
+    z-index: 3;
+    backdrop-filter: blur(5px);
     width: 70%;
     min-height: 60vh;
     border: $border;
 
     .greetingText {
       @include flex(column, space-around, flex-start, wrap);
-      z-index: 2;
     }
 
     .avatar {
-      z-index: 2;
       display: flex;
       height: 300px;
       justify-content: space-around;
