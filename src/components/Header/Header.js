@@ -8,7 +8,7 @@ export const Header = () => {
     return (
         <header className={style.header}>
             <div className={style.nav}>
-                <HashLink to={'/#main'}> Main </HashLink>
+                <HashLink to={'Portfolio/#main'}> Main </HashLink>
                 <Link to={'/#skills'}> Skills </Link>
                 <Link to={'/#projects'}> Projects </Link>
                 <Link to={'/#contacts'}> Contacts </Link>
