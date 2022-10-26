@@ -7,22 +7,26 @@ import typescript from './../../common/icons/typescript-icon.png'
 import git from './../../common/icons/git-icon.png'
 import sass from '../../common/icons/sass-icon.png'
 import {SkillItem} from "./SkillItem/SkillItem";
+import Slide from 'react-reveal/Slide';
 
 
 export const SkillsBlock = () => {
     return (
         <div id={'skills'} className={style.skillsBlock}>
             <div className={style.skills}>
-                <h2 className={t.title}> SKILLS </h2>
-                <div className={style.skillsItems}>
-                    <SkillItem name={'React'} logo={'https://www.svgrepo.com/show/327388/logo-react.svg'}/>
-                    <SkillItem name={'JavaScript'} logo={'https://www.svgrepo.com/show/327372/logo-javascript.svg'}/>
-                    <SkillItem name={'Redux'} logo={reduxIcon}/>
-                    <SkillItem name={'TypeScript'} logo={typescript}/>
-                    <SkillItem name={'CSS'} logo={cssIcon}/>
-                    <SkillItem name={'Sass'} logo={sass}/>
-                    <SkillItem name={'Git'} logo={git}/>
-                </div>
+                <Slide bottom>
+                    <h2 className={t.title}> SKILLS </h2>
+                    <div className={style.skillsItems}>
+                        <SkillItem name={'React'} logo={'https://www.svgrepo.com/show/327388/logo-react.svg'}/>
+                        <SkillItem name={'JavaScript'}
+                                   logo={'https://www.svgrepo.com/show/327372/logo-javascript.svg'}/>
+                        <SkillItem name={'Redux'} logo={reduxIcon}/>
+                        <SkillItem name={'TypeScript'} logo={typescript}/>
+                        <SkillItem name={'CSS'} logo={cssIcon}/>
+                        <SkillItem name={'Sass'} logo={sass}/>
+                        <SkillItem name={'Git'} logo={git}/>
+                    </div>
+                </Slide>
             </div>
         </div>
     );
