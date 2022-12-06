@@ -5,7 +5,7 @@ import style from './Header.module.scss';
 export const Header = () => {
 
     const onClickHandler = (id) => {
-        const element = document.getElementById(id)
+        const element = document.getElementById(id);
         element?.scrollIntoView({block: "start", behavior: 'smooth'})
     }
 
