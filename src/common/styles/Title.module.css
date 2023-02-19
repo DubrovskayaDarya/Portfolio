@@ -1,12 +1,10 @@
 .title {
-    color: #333333;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: poppins, sans-serif;
-    font-feature-settings: normal;
-    font-style: normal;
-    letter-spacing: 0.166667em;
-    margin: 10px;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: poppins, sans-serif;
+  font-feature-settings: normal;
+  font-style: normal;
+  letter-spacing: 0.166667em;
+  margin: 10px;
 }
-
-
